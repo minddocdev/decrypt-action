@@ -1,0 +1,16 @@
+name: 'Decrypt Action'
+description: 'Decrypt GPG files'
+author: 'MindDoc GmbH'
+inputs:
+  files:
+    description: 'The comma separated list of files to decrypt'
+    required: true
+  passphrase:
+    description: 'The password used to encrypted the secrets'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'cloud'
+  color: 'green'
