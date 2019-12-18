@@ -1,4 +1,4 @@
-# Sonarqube Action
+# Decrypt secrets Action
 
 ## Usage
 
